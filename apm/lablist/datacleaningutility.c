@@ -32,7 +32,7 @@ int main(){
 			}
 		}
 	}
-	printf("\n There");
+	printf("\n cleaned mails : \n");
 	for(i=0; i<n; i++){
 		printf("%s\n",emails[i]);
 	}
