@@ -5,9 +5,10 @@
      scanf("%d %d",&r,&c);
      printf("Enter the matrix:\n");
      for(i=0;i<r;i++){
-       for(j=0;j<c;j++)
-         scanf("%d",&sp[i][j]);
-  }
+     	for(j=0;j<c;j++){
+       		 scanf("%d",&sp[i][j]);
+  }}
+
     for(i=0;i<r;i++){
          for(j=0;j<c;j++){
            if(sp[i][j]!=0)
@@ -16,7 +17,7 @@
     }
     a=r*c-count;
     if(a<=count){
-      printf("THis is not a sprae matrix\n");
+      printf("This is not a sparse matrix\n");
       return 0;
     }
     int mat[3][count],k=0;
