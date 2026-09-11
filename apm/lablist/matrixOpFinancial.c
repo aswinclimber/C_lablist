@@ -3,8 +3,16 @@
 #define MAX 10
 
 void rowSum(int a[][MAX],int r,int c){
-
+	int i,j,sum;
+	for(i=0;i<c;i++){
+		sum = 0;
+		for(j=0;j<r;j++){
+			sum+=a[i][j];
+		}
+		printf("row %d sum : %d",i+1,sum);
+	}
 }
+
 
 void columnSum(int a[][MAX], int r, int c){
 }
@@ -35,7 +43,7 @@ int main(){
                 for(j = 0;j<c;j++){
                         printf("%d",a[i][j]);
                 }
-		print("\n");
+		printf("\n");
         }
 
 	rowSum(a,r,c);
