@@ -40,3 +40,27 @@ int main(){
 	
 
 }
+
+// ALGORITHM: REMOVING DUPLICATE EMAIL ADDRESSES
+
+// 1. Start.
+
+// 2. Read the number of email addresses.
+
+// 3. Read all the email addresses into an array.
+
+// 4. Compare each email address with the email addresses that
+//    follow it.
+
+// 5. If two email addresses are identical:
+//       a. Mark them as duplicate.
+//       b. Shift all the following email addresses one position
+//          to the left.
+//       c. Decrease the number of email addresses by one.
+//       d. Recheck the current position for further duplicates.
+
+// 6. Continue the comparison until all email addresses have been checked.
+
+// 7. Display the cleaned list of email addresses.
+
+// 8. Stop.

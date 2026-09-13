@@ -35,3 +35,28 @@ int main(){
 			
 			
 			
+// ### ALGORITHM: FINDING PRIME NUMBERS FROM AN ARRAY
+
+// 1. Start.
+
+// 2. Read the number of elements `n`.
+
+// 3. Read `n` numbers into the array `a`.
+
+// 4. Initialize `count = 0`.
+
+// 5. Traverse each element of the array.
+
+// 6. If the number is less than `2`, skip it.
+
+// 7. Assume the number is prime by setting `isPrime = 1`.
+
+// 8. Check whether the number is divisible by any number from `2` up to one less than the number.
+
+//    * If it is divisible, set `isPrime = 0` and stop checking.
+
+// 9. If `isPrime = 1`, store the number in the `prime` array and increment `count`.
+
+// 10. Display all the numbers stored in the `prime` array.
+
+// 11. Stop.

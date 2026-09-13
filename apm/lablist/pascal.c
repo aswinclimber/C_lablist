@@ -23,3 +23,21 @@ int main(){
 }
 
 
+// ### ALGORITHM: PASCAL'S TRIANGLE
+
+// 1. Start.
+
+// 2. Read the number of rows `n`.
+
+// 3. Repeat for each row from `0` to `n-1`:
+
+//    * Print spaces to format the triangle.
+//    * Set `num = 1`.
+//    * Repeat for each element in the current row:
+
+//      * Display `num`.
+//      * Calculate the next value of `num` using the Pascal's Triangle formula.
+
+// 4. Move to the next row.
+
+// 5. Stop.
