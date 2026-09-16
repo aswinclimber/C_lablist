@@ -7,8 +7,21 @@ struct node{
 	struct node *right;
 }
 
-int main(){
-	printf("Enter the data ");
-	struct node*newnode;
-	newnode =(struct node)*malloc(sizeof(struct node));
-	scanf("%d",&newnode->data)
+struct node* createNode(int value){
+	struct node* newnode;
+	
+	newnode = (struct node*)malloc(sizeof(struct node));
+
+	newnode->data = value;
+	newnode->left = NULL;
+	newnode->right = NULL;
+
+	return newnode;
+}
+
+struct node* insert(struct node*root, int value){
+	if (root == NULL){
+		return createNode(value);
+	}
+	else{
+		if
