@@ -1,23 +1,20 @@
-
 #include <stdio.h>
 
 int main()
 {
     int n, i, j;
 
-    printf("Enter number of rows: ");
+    printf("Enter size: ");
     scanf("%d", &n);
 
     for(i = 1; i <= n; i++)
     {
-        for(j = i; j < n; j++)
+        for(j = 1; j <= n; j++)
         {
-            printf(" ");
-        }
-
-        for(j = 1; j <= i; j++)
-        {
-            printf("* ");
+            if(i == 1 || i == n || j == n - i + 1)
+                printf("*");
+            else
+                printf(" ");
         }
 
         printf("\n");

@@ -1,3 +1,37 @@
+/* 
+Name: Aswin K U 
+Roll No: CS06
+Date: 31/08/2026
+ 
+******** Permutation Generator for Password Cracking Simulation ******** 
+ 
+AIM: Write a program that generates all possible permutations of a given string, which could simulate a password-cracking tool for security testing.
+
+ALGORITHM
+
+1. Start.
+
+2. Read the input string.
+
+3. Find the length of the string.
+
+4. Call the permutation function with the first and last positions of the string.
+
+5. In the permutation function:
+   a. If the current position reaches the last position, display the string.
+   b. Otherwise, select each character from the current position to the last position.
+   c. Swap the selected character with the character at the current position.
+   d. Recursively generate permutations for the next position.
+   e. Swap the characters back to restore the original order.
+
+6. Repeat the process until all possible permutations are generated.
+
+7. Display all the generated permutations.
+
+8. Stop.
+
+SOURCE CODE
+*/
 #include <stdio.h>
 #include <string.h>
 
@@ -47,32 +81,17 @@ int main()
     return 0;
 }
 
-
 /*
-ALGORITHM: PERMUTATION GENERATOR
+OUTPUT
 
-1. Start.
+Enter a string: ABC
 
-2. Read the input string.
-
-3. Find the length of the string.
-
-4. Call the permutation function with the first and last
-   positions of the string.
-
-5. In the permutation function:
-      a. If the current position reaches the last position,
-         display the string.
-      b. Otherwise, select each character from the current
-         position to the last position.
-      c. Swap the selected character with the character at
-         the current position.
-      d. Recursively generate permutations for the next position.
-      e. Swap the characters back to restore the original order.
-
-6. Repeat the process until all possible permutations are generated.
-
-7. Display all the generated permutations.
-
-8. Stop.
+All possible permutations:
+ABC
+ACB
+BAC
+BCA
+CBA
+CAB
 */
+

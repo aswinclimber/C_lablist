@@ -1,3 +1,44 @@
+/* 
+Name: Aswin K U 
+Roll No: CS06
+Date: 21/08/2026
+ 
+******** Matrix Multiplication for Image Processing ******** 
+ 
+AIM: Implement matrix multiplication to apply a transformation matrix to an image. The program should accept a 2D image matrix and a transformation matrix, then output the transformed image.
+
+ALGORITHM
+
+1. Start.
+
+2. Declare the image matrix, transformation matrix and result matrix.
+
+3. Read the number of rows and columns of the image matrix.
+
+4. Read the elements of the image matrix.
+
+5. Read the number of rows and columns of the transformation matrix.
+
+6. Read the elements of the transformation matrix.
+
+7. Check whether the number of columns of the image matrix is equal to the number of rows of the transformation matrix.
+
+8. If they are not equal, display "Matrix multiplication is not possible" and terminate the program.
+
+9. Initialize the elements of the result matrix to zero.
+
+10. Perform matrix multiplication:
+    a. Select each row of the image matrix.
+    b. Select each column of the transformation matrix.
+    c. Multiply the corresponding elements.
+    d. Add the products and store the sum in the result matrix.
+
+11. Display the result matrix as the transformed image.
+
+12. Stop.
+
+SOURCE CODE
+*/
 #include <stdio.h>
 
 #define MAX 10
@@ -66,34 +107,20 @@ int main()
     return 0;
 }
 
-// ALGORITHM: MATRIX MULTIPLICATION FOR IMAGE PROCESSING
+/*
+OUTPUT
 
-// 1. Start.
+Enter rows and columns of image matrix: 2 2
+Enter image matrix:
+1 2
+3 4
 
-// 2. Declare the image matrix, transformation matrix and result matrix.
+Enter rows and columns of transformation matrix: 2 2
+Enter transformation matrix:
+1 0
+0 1
 
-// 3. Read the number of rows and columns of the image matrix.
-
-// 4. Read the elements of the image matrix.
-
-// 5. Read the number of rows and columns of the transformation matrix.
-
-// 6. Read the elements of the transformation matrix.
-
-// 7. Check whether the number of columns of the image matrix is equal
-//    to the number of rows of the transformation matrix.
-
-// 8. If they are not equal, display "Matrix multiplication is not possible"
-//    and terminate the program.
-
-// 9. Initialize the elements of the result matrix to zero.
-
-// 10. Perform matrix multiplication:
-//        a. Select each row of the image matrix.
-//        b. Select each column of the transformation matrix.
-//        c. Multiply the corresponding elements.
-//        d. Add the products and store the sum in the result matrix.
-
-// 11. Display the result matrix as the transformed image.
-
-// 12. Stop.
+Transformed image matrix:
+1 2
+3 4
+*/

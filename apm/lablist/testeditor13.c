@@ -1,3 +1,39 @@
+/* 
+Name: Aswin K U 
+Roll No: CS06
+Date: 11/09/2026 
+ 
+******** Text Editor: Substring Insertion ******** 
+ 
+AIM: Create a text editor program that allows a user to insert a given substring at a specified position within an existing string of text. This tool can help in editing and updating documents or code
+
+ALGORITHM
+
+1. Start.
+
+2. Read the existing text.
+
+3. Read the substring to be inserted.
+
+4. Read the position at which the substring is to be inserted.
+
+5. Check whether the position is valid.
+   * If the position is invalid, display an error message and stop.
+
+6. Copy the characters of the original text before the specified position into the result string.
+
+7. Copy the substring into the result string.
+
+8. Copy the remaining characters of the original text into the result string.
+
+9. Add the null character `'\0'` at the end of the result string.
+
+10. Display the updated text.
+
+11. Stop.
+
+SOURCE CODE
+*/
 #include <stdio.h>
 #include <string.h>
 
@@ -56,28 +92,11 @@ int main()
     return 0;
 }
 
-// ### ALGORITHM: SUBSTRING INSERTION
+/*
+OUTPUT
 
-// 1. Start.
-
-// 2. Read the existing text.
-
-// 3. Read the substring to be inserted.
-
-// 4. Read the position at which the substring is to be inserted.
-
-// 5. Check whether the position is valid.
-
-//    * If the position is invalid, display an error message and stop.
-
-// 6. Copy the characters of the original text before the specified position into the result string.
-
-// 7. Copy the substring into the result string.
-
-// 8. Copy the remaining characters of the original text into the result string.
-
-// 9. Add the null character `'\0'` at the end of the result string.
-
-// 10. Display the updated text.
-
-// 11. Stop.
+Enter the text: Hello World
+Enter the substring to insert: Beautiful 
+Enter the position: 6
+Updated text: Hello Beautiful World
+*/

@@ -1,3 +1,39 @@
+/* 
+Name: Aswin K U 
+Roll No: CS06
+Date: 03/08/2026
+ 
+******** Palindrome Checker for Database Records ******** 
+ 
+AIM: Write a program to check if a given set of product codes (stored as strings in a database) are palindromes, and generate a report of the results
+
+ALGORITHM
+
+1. Start.
+
+2. Define a function `isPalindrome()` to check whether a product code is a palindrome.
+
+3. Read the number of product codes `n`.
+
+4. If the input for `n` is invalid, display an error message and terminate.
+
+5. Repeat the following steps for each product code:
+   * Read the product code.
+   * Display the product code.
+   * Set `i = 0` and `j = length of code - 1`.
+   * Compare the characters at positions `i` and `j`.
+   * If they are different, return **Not a Palindrome**.
+   * Increment `i` and decrement `j`.
+   * Continue until `i >= j`.
+
+6. If all corresponding characters are equal, return **Palindrome**.
+
+7. Display the result for each product code.
+
+8. Stop.
+
+SOURCE CODE
+*/
 #include<stdio.h>
 #include <string.h>
 
@@ -40,29 +76,27 @@ int main(){
 	return 0;
 }
 
-			
-// ### ALGORITHM: PRODUCT CODE PALINDROME CHECKER
+/*
+OUTPUT
 
-// 1. Start.
+Enter number of product codes : 3
 
-// 2. Define a function `isPalindrome()` to check whether a product code is a palindrome.
+Enter the product code 1 : malayalam
 
-// 3. Read the number of product codes `n`.
+product code : malayalam
 
-// 4. If the input for `n` is invalid, display an error message and terminate.
+Result : Palindrome
 
-// 5. Repeat the following steps for each product code:
+Enter the product code 2 : aswin
 
-//    * Read the product code.
-//    * Display the product code.
-//    * Set `i = 0` and `j = length of code - 1`.
-//    * Compare the characters at positions `i` and `j`.
-//    * If they are different, return **Not a Palindrome**.
-//    * Increment `i` and decrement `j`.
-//    * Continue until `i >= j`.
+product code : aswin
 
-// 6. If all corresponding characters are equal, return **Palindrome**.
+Result : Not a palindrome
 
-// 7. Display the result for each product code.
+Enter the product code 3 : ono
 
-// 8. Stop.
+product code : ono
+
+Result : Palindrome
+*/			
+

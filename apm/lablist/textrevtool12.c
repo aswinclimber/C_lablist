@@ -1,3 +1,40 @@
+/* 
+Name: Aswin K U 
+Roll No: CS06
+Date: 08/09/2026
+ 
+******** Text Reversal Tool for Document Review ******** 
+ 
+AIM:  Write a program that checks if a document (string) is a palindrome by reversing it manually without using built-in functions. This tool could be used for reviewing documents that need to maintain symmetry.
+
+ALGORITHM
+
+1. Start.
+
+2. Declare a string `str` and another string `rev`.
+
+3. Read the string `str`.
+
+4. Find the length of `str` manually.
+
+5. Set `j = 0`.
+
+6. Start from the last character of `str`.
+
+7. Copy each character into `rev` from last to first.
+
+8. Add `'\0'` at the end of `rev`.
+
+9. Compare `str` and `rev` character by character.
+
+10. If all characters are the same, print **"Palindrome"**.
+
+11. Otherwise, print **"Not a Palindrome"**.
+
+12. Stop.
+
+SOURCE CODE
+*/
 #include <stdio.h>
 
 int main()
@@ -8,13 +45,13 @@ int main()
     printf("Enter a string: ");
     scanf("%s", str);
 
-    /* Find the length manually */
+
     while (str[length] != '\0')
     {
         length++;
     }
 
-    /* Reverse the string manually */
+  
     j = 0;
 
     for (i = length - 1; i >= 0; i--)
@@ -27,7 +64,7 @@ int main()
 
     printf("Reversed string: %s\n", rev);
 
-    /* Compare original and reversed string manually */
+   
     i = 0;
 
     while (str[i] != '\0')
@@ -45,17 +82,14 @@ int main()
     return 0;
 }
 
-// ### Algorithm: Check Whether a String is a Palindrome
+/*
+OUTPUT
 
-// 1. **Start**
-// 2. Declare a string `str` and another string `rev`.
-// 3. Read the string `str`.
-// 4. Find the length of `str` manually.
-// 5. Set `j = 0`.
-// 6. Start from the last character of `str`.
-// 7. Copy each character into `rev` from last to first.
-// 8. Add `'\0'` at the end of `rev`.
-// 9. Compare `str` and `rev` character by character.
-// 10. If all characters are the same, print **"Palindrome"**.
-// 11. Otherwise, print **"Not a Palindrome"**.
-// 12. **Stop**.
+Enter a string: madam
+Reversed string: madam
+Palindrome
+
+Enter a string: hello
+Reversed string: olleh
+Not a palindrome
+*/

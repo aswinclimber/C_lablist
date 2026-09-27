@@ -1,3 +1,40 @@
+/* 
+Name: Aswin K U 
+Roll No: CS06
+Date: 17/08/2026
+ 
+******** Matrix Operations for Financial Modeling ******** 
+ 
+AIM: Write a program to perform matrix operations that calculate the row sum, column sum, and diagonal sum of a financial transaction matrix. Additionally, include a function to transpose the matrix for further analysis.
+
+ALGORITHM
+
+1. Start.
+
+2. Declare a matrix and required variables.
+
+3. Read the number of rows and columns of the matrix.
+
+4. Read the elements of the matrix.
+
+5. Display the matrix.
+
+6. Calculate the sum of each row and display it.
+
+7. Calculate the sum of each column and display it.
+
+8. Check whether the matrix is square.
+   * If `rows = columns`, calculate and display the main diagonal sum and secondary diagonal sum.
+   * Otherwise, display that diagonal sum requires a square matrix.
+
+9. Calculate the transpose of the matrix by interchanging its rows and columns.
+
+10. Display the transpose matrix.
+
+11. Stop.
+
+SOURCE CODE
+*/
 #include<stdio.h>
 
 #define MAX 10
@@ -94,30 +131,35 @@ int main(){
 	return 0;
 }
 
+/*
+OUTPUT
 
-// ### ALGORITHM: MATRIX OPERATIONS
+Enter the number of rows and columns : 3 3
 
-// 1. Start.
+Enter the matrix elements:
+1 2 3
+4 5 6
+7 8 9
 
-// 2. Declare a matrix and required variables.
+The matrix:
+1 2 3
+4 5 6
+7 8 9
 
-// 3. Read the number of rows and columns of the matrix.
+Row 1 sum : 6
+Row 2 sum : 15
+Row 3 sum : 24
 
-// 4. Read the elements of the matrix.
+Column 1 sum : 12
+Column 2 sum : 15
+Column 3 sum : 18
 
-// 5. Display the matrix.
+Main diagonal sum : 15
+Secondary diagonal sum : 15
 
-// 6. Calculate the sum of each row and display it.
+Transpose matrix :
+1 4 7
+2 5 8
+3 6 9
+*/
 
-// 7. Calculate the sum of each column and display it.
-
-// 8. Check whether the matrix is square.
-
-//    * If `rows = columns`, calculate and display the main diagonal sum and secondary diagonal sum.
-//    * Otherwise, display that diagonal sum requires a square matrix.
-
-// 9. Calculate the transpose of the matrix by interchanging its rows and columns.
-
-// 10. Display the transpose matrix.
-
-// 11. Stop.

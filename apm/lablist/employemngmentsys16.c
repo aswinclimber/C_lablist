@@ -1,3 +1,50 @@
+/* 
+Name: Aswin K U 
+Roll No: CS06
+Date: 18/09/2026
+ 
+******** Employee Management System ******** 
+ 
+AIM: Create an application to manage employee data using structures. The program should allow input, display, and update employee details such as name, ID, salary, and department.
+
+ALGORITHM
+
+1. Start.
+
+2. Define a structure named Employee with the following members:
+   a. ID  
+   b. Name  
+   c. Salary  
+   d. Department
+
+3. Declare an array of Employee structures.
+
+4. Read the number of employees.
+
+5. For each employee, read the following details:
+   a. Employee ID  
+   b. Employee Name  
+   c. Employee Salary  
+   d. Employee Department
+
+6. Display the details of all employees.
+
+7. Read the Employee ID whose details are to be updated.
+
+8. Search for the employee with the given ID.
+
+9. If the employee is found:
+   a. Read the updated salary.  
+   b. Read the updated department.  
+   c. Modify the corresponding employee details.  
+   d. Display the updated employee details.
+
+10. If the employee is not found, display an appropriate message.
+
+11. Stop.
+
+SOURCE CODE
+*/
 #include <stdio.h>
 
 #define MAX 10
@@ -76,39 +123,46 @@ int main() {
 }
 
 /*
-ALGORITHM: EMPLOYEE MANAGEMENT SYSTEM
+OUTPUT
 
-1. Start.
+Enter number of employees: 2
 
-2. Define a structure named Employee with the following members:
-      a. ID
-      b. Name
-      c. Salary
-      d. Department
+Enter details of employee 1:
+ID: 101
+Name: Arun
+Salary: 25000
+Department: IT
 
-3. Declare an array of Employee structures.
+Enter details of employee 2:
+ID: 102
+Name: Rahul
+Salary: 30000
+Department: HR
 
-4. Read the number of employees.
+--- Employee Details ---
 
-5. For each employee, read the following details:
-      a. Employee ID
-      b. Employee Name
-      c. Employee Salary
-      d. Employee Department
+Employee 1
+ID: 101
+Name: Arun
+Salary: 25000.00
+Department: IT
 
-6. Display the details of all employees.
+Employee 2
+ID: 102
+Name: Rahul
+Salary: 30000.00
+Department: HR
 
-7. Read the Employee ID whose details are to be updated.
+Enter employee ID to update: 101
 
-8. Search for the employee with the given ID.
+Enter new salary: 28000
+Enter new department: Development
 
-9. If the employee is found:
-      a. Read the updated salary.
-      b. Read the updated department.
-      c. Modify the corresponding employee details.
-      d. Display the updated employee details.
+Employee details updated successfully.
 
-10. If the employee is not found, display an appropriate message.
-
-11. Stop.
+Updated Details:
+ID: 101
+Name: Arun
+Salary: 28000.00
+Department: Development
 */

@@ -1,3 +1,49 @@
+/* 
+Name: Aswin K U 
+Roll No: CS06
+Date: 04/09/2026
+ 
+******** String Manipulation Utility ******** 
+ 
+AIM:  Create an application that implements a suite of string functions like concatenation, comparison, and conversion (uppercase to lowercase), which can be applied to a list of user-provided strings.
+
+ALGORITHM
+
+1. Start.
+
+2. Declare an array to store the user-provided strings.
+
+3. Read the number of strings.
+
+4. Read all the strings from the user.
+
+5. Display the available string operations:
+   a. Concatenation  
+   b. Comparison  
+   c. Conversion to lowercase
+
+6. Read the user's choice.
+
+7. If the choice is concatenation:
+   a. Copy the first string to the result.  
+   b. Append the remaining strings to the result.  
+   c. Display the concatenated string.
+
+8. If the choice is comparison:
+   a. Compare the first two strings.  
+   b. Display whether the strings are equal, or which string is greater.
+
+9. If the choice is conversion to lowercase:
+   a. Traverse each string character by character.  
+   b. Convert each uppercase character to lowercase.  
+   c. Display the converted strings.
+
+10. If an invalid choice is entered, display an appropriate message.
+
+11. Stop.
+
+SOURCE CODE
+*/
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
@@ -78,41 +124,52 @@ int main()
     return 0;
 }
 
-
 /*
-ALGORITHM: STRING MANIPULATION UTILITY
+OUTPUT
 
-1. Start.
+Enter number of strings: 3
 
-2. Declare an array to store the user-provided strings.
+Enter the strings:
+Hello
+World
+C
 
-3. Read the number of strings.
+--- String Manipulation Utility ---
+1. Concatenation
+2. Comparison
+3. Convert to lowercase
+Enter your choice: 1
 
-4. Read all the strings from the user.
+Concatenated string: HelloWorldC
 
-5. Display the available string operations:
-      a. Concatenation
-      b. Comparison
-      c. Conversion to lowercase
+Enter number of strings: 2
 
-6. Read the user's choice.
+Enter the strings:
+Apple
+Banana
 
-7. If the choice is concatenation:
-      a. Copy the first string to the result.
-      b. Append the remaining strings to the result.
-      c. Display the concatenated string.
+--- String Manipulation Utility ---
+1. Concatenation
+2. Comparison
+3. Convert to lowercase
+Enter your choice: 2
 
-8. If the choice is comparison:
-      a. Compare the first two strings.
-      b. Display whether the strings are equal,
-         or which string is greater.
+First string is smaller than the second string.
 
-9. If the choice is conversion to lowercase:
-      a. Traverse each string character by character.
-      b. Convert each uppercase character to lowercase.
-      c. Display the converted strings.
+Enter number of strings: 3
 
-10. If an invalid choice is entered, display an appropriate message.
+Enter the strings:
+HELLO
+WORLD
+COMPUTER
 
-11. Stop.
+--- String Manipulation Utility ---
+1. Concatenation
+2. Comparison
+3. Convert to lowercase
+Enter your choice: 3
+
+String 1: hello
+String 2: world
+String 3: computer
 */
