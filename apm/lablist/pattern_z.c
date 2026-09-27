@@ -1,29 +1,27 @@
+
 #include <stdio.h>
-int main(){
-	int n,i,j;
 
-	printf("Enter the number : ");
-	scanf("%d",&n);
+int main()
+{
+    int n, i, j;
 
-	for(i=0;i<n;i++){
+    printf("Enter number of rows: ");
+    scanf("%d", &n);
 
-		for(j=0;j<n;j++){
-			if (i!=0 && i!=n-1){
-				if (j==n-i-1){
-					printf("* ");
-				}
-				else{
+    for(i = 1; i <= n; i++)
+    {
+        for(j = i; j < n; j++)
+        {
+            printf(" ");
+        }
 
-				printf("  ");
-				}
-			}
-			else{
-				printf("* ");
-			}
-		}
-		printf("\n");
-		}
-		
-	return 0;
+        for(j = 1; j <= i; j++)
+        {
+            printf("* ");
+        }
+
+        printf("\n");
+    }
+
+    return 0;
 }
-
