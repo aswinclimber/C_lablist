@@ -2,8 +2,10 @@
 Name: Aswin K U 
 Roll No: CS06
 Date: 20/07/2026
+
+Experiment No : 1
  
-******** Character Analysis Tool ******** 
+Heading: Character Analysis Tool 
  
 AIM: Write a program to develop a simple text analysis tool that takes an input string and categorizes each character as a vowel, consonant, or other (special character, number, etc.) using a switch statement.
 
