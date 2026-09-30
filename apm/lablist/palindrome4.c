@@ -2,8 +2,10 @@
 Name: Aswin K U 
 Roll No: CS06
 Date: 03/08/2026
+
+Experiment No : 4
  
-******** Palindrome Checker for Database Records ******** 
+Heading: Palindrome Checker for Database Records 
  
 AIM: Write a program to check if a given set of product codes (stored as strings in a database) are palindromes, and generate a report of the results
 

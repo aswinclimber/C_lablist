@@ -2,8 +2,10 @@
 Name: Aswin K U 
 Roll No: CS06
 Date: 17/08/2026
+
+Experiment No : 7
  
-******** Matrix Operations for Financial Modeling ******** 
+Heading: Matrix Operations for Financial Modeling 
  
 AIM: Write a program to perform matrix operations that calculate the row sum, column sum, and diagonal sum of a financial transaction matrix. Additionally, include a function to transpose the matrix for further analysis.
 

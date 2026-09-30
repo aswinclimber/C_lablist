@@ -2,8 +2,10 @@
 Name: Aswin K U 
 Roll No: CS06
 Date: 06/08/2026
+
+Experiment No : 5
  
-******** Data Cleaning Utility: Remove Duplicates ******** 
+Heading: Data Cleaning Utility: Remove Duplicates 
  
 AIM:  Create a program that takes a list of customer email addresses (stored in an array) and removes any duplicates, ensuring that each email address is only represented once.
 

@@ -7,7 +7,9 @@ Experiment No : 1
  
 Heading: Character Analysis Tool 
  
+
 AIM: Write a program to develop a simple text analysis tool that takes an input string and categorizes each character as a vowel, consonant, or other (special character, number, etc.) using a switch statement.
+
 
 ALGORITHM
 
@@ -67,6 +69,7 @@ int main(){
 	}
 	return 0;
 }
+
 
 /* 
 OUTPUT

@@ -2,8 +2,10 @@
 Name: Aswin K U 
 Roll No: CS06
 Date: 21/08/2026
+
+Experiment No : 8
  
-******** Matrix Multiplication for Image Processing ******** 
+Heading: Matrix Multiplication for Image Processing
  
 AIM: Implement matrix multiplication to apply a transformation matrix to an image. The program should accept a 2D image matrix and a transformation matrix, then output the transformed image.
 

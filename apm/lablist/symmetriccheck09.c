@@ -2,8 +2,10 @@
 Name: Aswin K U 
 Roll No: CS06
 Date: 26/08/2026
+
+Experiment No : 9
  
-******** Symmetry Checker for Geometric Designs ******** 
+Heading: Symmetry Checker for Geometric Designs  
  
 AIM: Develop a program to check if a given design (represented as a matrix) is symmetric. This program can be useful for analyzing symmetry in architectural or geometric design patterns.
 

@@ -2,8 +2,10 @@
 Name: Aswin K U 
 Roll No: CS06
 Date: 18/09/2026
+
+Experiment No : 16
  
-******** Employee Management System ******** 
+Heading: Employee Management System
  
 AIM: Create an application to manage employee data using structures. The program should allow input, display, and update employee details such as name, ID, salary, and department.
 

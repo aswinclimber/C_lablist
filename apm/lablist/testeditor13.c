@@ -2,8 +2,10 @@
 Name: Aswin K U 
 Roll No: CS06
 Date: 11/09/2026 
+
+Experiment No : 13
  
-******** Text Editor: Substring Insertion ******** 
+Heading: Text Editor: Substring Insertion 
  
 AIM: Create a text editor program that allows a user to insert a given substring at a specified position within an existing string of text. This tool can help in editing and updating documents or code
 

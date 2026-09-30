@@ -2,8 +2,10 @@
 Name: Aswin K U 
 Roll No: CS06
 Date: 04/09/2026
+
+Experiment No : 11
  
-******** String Manipulation Utility ******** 
+Heading: String Manipulation Utility
  
 AIM:  Create an application that implements a suite of string functions like concatenation, comparison, and conversion (uppercase to lowercase), which can be applied to a list of user-provided strings.
 

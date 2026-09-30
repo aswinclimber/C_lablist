@@ -2,8 +2,10 @@
 Name: Aswin K U 
 Roll No: CS06
 Date: 31/08/2026
+
+Experiment No : 10
  
-******** Permutation Generator for Password Cracking Simulation ******** 
+Heading: Permutation Generator for Password Cracking Simulation 
  
 AIM: Write a program that generates all possible permutations of a given string, which could simulate a password-cracking tool for security testing.
 

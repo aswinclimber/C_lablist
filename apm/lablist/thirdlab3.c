@@ -2,8 +2,10 @@
 Name: Aswin K U 
 Roll No: CS06
 Date: 29/07/2026
+
+Experiment No : 3
  
-******** Efficient Prime Number Generation ******** 
+Heading: Efficient Prime Number Generation 
  
 AIM: Implement the Sieve of Eratosthenes algorithm to generate a list of prime numbers up to a specified upper limit (e.g., 10,000). This list will be used for efficient lookups in a mathematical application.
 

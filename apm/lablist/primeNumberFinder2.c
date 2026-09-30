@@ -2,8 +2,10 @@
 Name: Aswin K U 
 Roll No: CS06
 Date: 24/07/2026
+
+Experiment No : 2
  
-******** Prime Number Finder for Data Processing ******** 
+Heading: Prime Number Finder for Data Processing  
  
 AIM:  Write a program that scans a list of numbers and identifies which ones are prime. It should store the prime numbers separately for further processing.
 

@@ -3,7 +3,9 @@ Name: Aswin K U
 Roll No: CS06
 Date: 08/09/2026
  
-******** Text Reversal Tool for Document Review ******** 
+Experiment No : 12
+
+Heading: Text Reversal Tool for Document Review 
  
 AIM:  Write a program that checks if a document (string) is a palindrome by reversing it manually without using built-in functions. This tool could be used for reviewing documents that need to maintain symmetry.
 
