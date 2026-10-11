@@ -1,3 +1,43 @@
+/* 
+Name: Aswin K U 
+Roll No: CS06
+Date: 14/08/2026
+
+Experiment No : 6
+ 
+Heading:  Queue  using  linkedlist
+ 
+AIM: Implementation  of  queue  using  linkedlist
+
+
+ALGORITHM
+
+1. Start.
+
+2. Initialize front = NULL and rear = NULL.
+
+3. Display the menu with Enqueue, Dequeue, Peek, Display and Exit options.
+
+4. Read the user's choice.
+
+5. If Enqueue is selected, create a new node, read the value and insert it at the rear of the queue.
+
+6. If Dequeue is selected, check whether the queue is empty.
+   If empty, display Underflow.
+   Otherwise, remove the front node and free its memory.
+
+7. If Peek is selected, check whether the queue is empty.
+   If empty, display Queue is empty.
+   Otherwise, display the front element.
+
+8. If Display is selected, traverse the queue from front to rear and display all elements.
+
+9. Repeat steps 3 to 8 until the user selects Exit.
+
+10. Stop.
+
+SOURCE CODE
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -119,3 +159,110 @@ int main(){
 
     return 0;
 }
+
+/*
+OUTPUT
+
+Select the operation you want to perform :
+1. Enqueue
+2. Dequeue
+3. Peek
+4. Display
+5. Exit
+1
+Enter the value to enqueue : 10
+
+Select the operation you want to perform :
+1. Enqueue
+2. Dequeue
+3. Peek
+4. Display
+5. Exit
+1
+Enter the value to enqueue : 20
+
+Select the operation you want to perform :
+1. Enqueue
+2. Dequeue
+3. Peek
+4. Display
+5. Exit
+1
+Enter the value to enqueue : 30
+
+Select the operation you want to perform :
+1. Enqueue
+2. Dequeue
+3. Peek
+4. Display
+5. Exit
+4
+10 20 30
+
+Select the operation you want to perform :
+1. Enqueue
+2. Dequeue
+3. Peek
+4. Display
+5. Exit
+3
+Front element : 10
+
+Select the operation you want to perform :
+1. Enqueue
+2. Dequeue
+3. Peek
+4. Display
+5. Exit
+2
+
+Select the operation you want to perform :
+1. Enqueue
+2. Dequeue
+3. Peek
+4. Display
+5. Exit
+4
+20 30
+
+Select the operation you want to perform :
+1. Enqueue
+2. Dequeue
+3. Peek
+4. Display
+5. Exit
+3
+Front element : 20
+
+Select the operation you want to perform :
+1. Enqueue
+2. Dequeue
+3. Peek
+4. Display
+5. Exit
+2
+
+Select the operation you want to perform :
+1. Enqueue
+2. Dequeue
+3. Peek
+4. Display
+5. Exit
+2
+
+Select the operation you want to perform :
+1. Enqueue
+2. Dequeue
+3. Peek
+4. Display
+5. Exit
+2
+Underflow
+Select the operation you want to perform :
+1. Enqueue
+2. Dequeue
+3. Peek
+4. Display
+5. Exit
+5
+*/

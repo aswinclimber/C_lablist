@@ -1,3 +1,51 @@
+/* 
+Name: Aswin K U 
+Roll No: CS06
+Date: 05/08/2026
+
+Experiment No : 4
+ 
+Heading: Linkedlists
+ 
+AIM: Implementation  of  linkedlists  and  operations  on  linkedlists  
+
+
+ALGORITHM
+
+1. Start.
+
+2. Initialize head = NULL.
+
+3. Create a linked list by allocating memory for each node and reading data from the user.
+
+4. Link each new node to the previous node until the user chooses to stop.
+
+5. Display the linked list and the number of nodes.
+
+6. Display the menu of operations.
+
+7. Read the user's choice.
+
+8. If insertion at beginning is selected, create a new node and link it before the head.
+
+9. If insertion in between is selected, read the position, locate the node and insert the new node.
+
+10. If insertion at end is selected, create a new node and link it to the last node.
+
+11. If deletion at beginning is selected, remove the first node and update the head.
+
+12. If deletion in between is selected, locate the position, unlink the node and free its memory.
+
+13. If deletion at end is selected, locate the last node, unlink it and free its memory.
+
+14. Display the updated linked list after each operation.
+
+15. Repeat steps 6 to 14 until the user selects Quit.
+
+16. Stop.
+
+SOURCE CODE
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -265,3 +313,108 @@ int main(){
 
     return 0;
 }
+
+/*
+OUTPUT
+
+Enter the number : 10
+
+Enter data again ? (1/0) : 1
+Enter the number : 20
+
+Enter data again ? (1/0) : 1
+Enter the number : 30
+
+Enter data again ? (1/0) : 0
+
+10-> 20-> 30-> NULL
+Number of links : 3
+Do you want to do the operation (1/0) : 1
+
+Choose your options :
+1. Insertion at beginning
+2. Insertion inbetween
+3. Insertion at end
+4. Deletion at beginning
+5. Deletion inbetween
+6. Deletion at end
+7. Quit
+: 1
+
+Enter the number : 5
+5-> 10-> 20-> 30-> NULL
+
+Choose your options :
+1. Insertion at beginning
+2. Insertion inbetween
+3. Insertion at end
+4. Deletion at beginning
+5. Deletion inbetween
+6. Deletion at end
+7. Quit
+: 2
+
+Enter position you want to insert : 2
+Enter the number : 15
+5-> 10-> 15-> 20-> 30-> NULL
+
+Choose your options :
+1. Insertion at beginning
+2. Insertion inbetween
+3. Insertion at end
+4. Deletion at beginning
+5. Deletion inbetween
+6. Deletion at end
+7. Quit
+: 3
+
+Enter the number : 40
+5-> 10-> 15-> 20-> 30-> 40-> NULL
+
+Choose your options :
+1. Insertion at beginning
+2. Insertion inbetween
+3. Insertion at end
+4. Deletion at beginning
+5. Deletion inbetween
+6. Deletion at end
+7. Quit
+: 4
+
+10-> 15-> 20-> 30-> 40-> NULL
+
+Choose your options :
+1. Insertion at beginning
+2. Insertion inbetween
+3. Insertion at end
+4. Deletion at beginning
+5. Deletion inbetween
+6. Deletion at end
+7. Quit
+: 5
+
+Enter position you want to delete : 2
+10-> 15-> 30-> 40-> NULL
+
+Choose your options :
+1. Insertion at beginning
+2. Insertion inbetween
+3. Insertion at end
+4. Deletion at beginning
+5. Deletion inbetween
+6. Deletion at end
+7. Quit
+: 6
+
+10-> 15-> 30-> NULL
+
+Choose your options :
+1. Insertion at beginning
+2. Insertion inbetween
+3. Insertion at end
+4. Deletion at beginning
+5. Deletion inbetween
+6. Deletion at end
+7. Quit
+: 7
+*/

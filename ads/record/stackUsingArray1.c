@@ -7,7 +7,7 @@ Experiment No : 1
  
 Heading: Stacks Using Arrays
  
-AIM: Implementation  of  stacks  using  arrays.
+AIM: Implementation  of  stacks  using  arrays
 
 
 ALGORITHM

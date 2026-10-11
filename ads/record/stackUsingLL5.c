@@ -1,3 +1,42 @@
+/* 
+Name: Aswin K U 
+Roll No: CS06
+Date: 11/08/2026
+
+Experiment No : 5
+ 
+Heading: Stacks  using  linkedlist
+ 
+AIM: Implementation  of  stacks  using  linkedlist
+
+
+ALGORITHM
+
+1. Start.
+
+2. Initialize top = NULL.
+
+3. Display the menu with Push, Pop, Peep and Exit operations.
+
+4. Read the user's choice.
+
+5. If Push is selected, create a new node, read the data and insert it at the top of the stack.
+
+6. If Pop is selected, check whether the stack is empty.
+   If empty, display Underflow.
+   Otherwise, remove the top node and display its value.
+
+7. If Peep is selected, check whether the stack is empty.
+   If empty, display Stack is empty.
+   Otherwise, display the top element.
+
+8. Repeat steps 3 to 7 until the user selects Exit.
+
+9. Stop.
+
+
+SOURCE CODE
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -68,3 +107,94 @@ int main(){
 		}
 	}
 }
+
+
+/*
+OUTPUT
+
+choose the operation you want to perform :
+1. Push
+2. pop
+3. peep
+4. exit
+: 1
+Enter the data : 10
+
+choose the operation you want to perform :
+1. Push
+2. pop
+3. peep
+4. exit
+: 1
+Enter the data : 20
+
+choose the operation you want to perform :
+1. Push
+2. pop
+3. peep
+4. exit
+: 1
+Enter the data : 30
+
+choose the operation you want to perform :
+1. Push
+2. pop
+3. peep
+4. exit
+: 3
+top value : 30
+
+choose the operation you want to perform :
+1. Push
+2. pop
+3. peep
+4. exit
+: 2
+Poped value : 30
+
+choose the operation you want to perform :
+1. Push
+2. pop
+3. peep
+4. exit
+: 3
+top value : 20
+
+choose the operation you want to perform :
+1. Push
+2. pop
+3. peep
+4. exit
+: 2
+Poped value : 20
+
+choose the operation you want to perform :
+1. Push
+2. pop
+3. peep
+4. exit
+: 2
+Poped value : 10
+
+choose the operation you want to perform :
+1. Push
+2. pop
+3. peep
+4. exit
+: 2
+Underflow
+choose the operation you want to perform :
+1. Push
+2. pop
+3. peep
+4. exit
+: 3
+Stack is empty
+
+choose the operation you want to perform :
+1. Push
+2. pop
+3. peep
+4. exit
+: 4
+*/

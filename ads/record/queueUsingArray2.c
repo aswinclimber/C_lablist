@@ -5,9 +5,9 @@ Date: 25/07/2026
 
 Experiment No : 2
  
-Heading: queues  using  arrays
+Heading: Queues  using  arrays
  
-AIM: Implementation  of  queues  using  arrays.
+AIM: Implementation  of  queues  using  arrays
 
 
 ALGORITHM
