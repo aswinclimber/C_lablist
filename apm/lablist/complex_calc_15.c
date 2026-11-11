@@ -9,6 +9,7 @@ Heading: Complex Number Calculator for Engineering Simulations
  
 AIM: Develop a program that allows the user to input two complex numbers and calculates their sum and difference. This program could be applied in simulations for electrical engineering or physics problems.
 
+
 ALGORITHM
 
 1. Start.
@@ -38,6 +39,7 @@ ALGORITHM
 13. Display the sum and difference using `disComp()`.
 
 14. Stop.
+
 
 SOURCE CODE
 */

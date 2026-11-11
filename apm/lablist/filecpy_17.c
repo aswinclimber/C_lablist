@@ -5,16 +5,23 @@ Date: 13/10/2026
 
 Experiment No: 17
 
-Heading: File copying using command line arguments
+Heading:  File Data Transfer Utility
 
 Aim: Write a program that copies the contents of one file into another, using command-line arguments for file names. This utility could be used for backup or migration tasks in system administration.
 
+
 Algorithm
+
 1. Check if correct number of command-line arguments (source and destination) are provided.
+
 2. Open source file in read mode and destination file in write mode.
+
 3. Check if files opened successfully; handle errors if any.
+
 4. Read characters from source file and write them to destination file until EOF.
+
 5. Close both files and display success message.
+
 
 SOURCE CODE
 */
