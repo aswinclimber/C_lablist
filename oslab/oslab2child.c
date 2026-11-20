@@ -20,5 +20,4 @@ int main(void){
 
 	printf("Parent: The child has finished.\n");
 	return 0;
-}
-
+}   
